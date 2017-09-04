@@ -57,7 +57,8 @@ int main()
 // kilka funkcji-atrap
 const double * f1(const double * ar, int n)
 {
-    return ar;
+ cout << "f1 \n";    
+	return ar;
 }
 const double * f2(const double ar[], int n)
 {
